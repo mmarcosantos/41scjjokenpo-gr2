@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422540740658",
+    "project_id": "jokenpo41scj",
+    "storage_bucket": "jokenpo41scj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422540740658:android:4182686815f2347180d42b",
+        "android_client_info": {
+          "package_name": "br.com.marco.jokenpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422540740658-a23o7v8hl0dqsm00vb6n40463uckgtai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANhSRBxvHPNaSR3HHYQYv9xU5HTwHNtTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422540740658-a23o7v8hl0dqsm00vb6n40463uckgtai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

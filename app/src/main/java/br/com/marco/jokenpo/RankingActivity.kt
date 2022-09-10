@@ -33,12 +33,12 @@ class RankingActivity : AppCompatActivity() {
         val db = FirebaseFirestore.getInstance()
         val listRanking =  arrayListOf<Ranking>()
         val collection =
-            db.collection("/ranking").document().get().addOnSuccessListener { document ->
+            db.collection("ranking").get().addOnSuccessListener { result ->
                 try {
-                    if (document != null) {
-                        listRanking.add(document.toObject(Ranking::class.java) ?: Ranking())
+                    for  (document in result ){
+                        listRanking.add(document.toObject(Ranking::class.java));
                     }
-                    document.get("ranking")
+
                 } finally {
                     var recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
                     val adapter = CustomAdapter(this, listRanking)

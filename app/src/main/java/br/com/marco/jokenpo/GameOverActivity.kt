@@ -20,21 +20,21 @@ class GameOverActivity : AppCompatActivity() {
 
         binding.btJogarNovamente.setOnClickListener {
             var nomeDoJogador = binding.txNomeUsuario.text.toString()
-            salvaFirestore(nomeDoJogador,score.toString());
+            salvaFirestore(nomeDoJogador,score.toFloat());
             val proximaTela = Intent(this, GameActivity::class.java)
             startActivity(proximaTela)
             finish()
         }
         binding.btMenu.setOnClickListener {
             var nomeDoJogador = binding.txNomeUsuario.text.toString()
-            salvaFirestore(nomeDoJogador,score.toString());
+            salvaFirestore(nomeDoJogador,score.toFloat());
             val proximaTela = Intent(this, MainActivity::class.java)
             startActivity(proximaTela)
             finish()
         }
     }
 
-    fun salvaFirestore( nomeUsuario : String, pontos: String){
+    fun salvaFirestore( nomeUsuario : String, pontos: Float){
         var ranking = Ranking(nomeUsuario, pontos)
         val db = FirebaseFirestore.getInstance()
         db.collection("ranking").add(ranking)

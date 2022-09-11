@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.534375" />
+        <entry key="..\:/Users/progr/AndroidStudioProjects/41scjjokenpo-gr2/app/src/main/res/layout/activity_game.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/progr/AndroidStudioProjects/41scjjokenpo-gr2/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/progr/AndroidStudioProjects/41scjjokenpo-gr2/app/src/main/res/layout/activity_ranking.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/progr/AndroidStudioProjects/41scjjokenpo-gr2/app/src/main/res/layout/activity_sobre.xml" value="0.264" />
+        <entry key="..\:/Users/progr/AndroidStudioProjects/41scjjokenpo-gr2/app/src/main/res/layout/item_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_game.xml" value="0.4017210144927536" />
         <entry key="app/src/main/res/layout/activity_game_over.xml" value="0.2739729065825973" />
         <entry key="app/src/main/res/layout/activity_game_overactivity.xml" value="0.4017210144927536" />

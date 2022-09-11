@@ -32,15 +32,11 @@ class GameOverActivity : AppCompatActivity() {
             startActivity(proximaTela)
             finish()
         }
-
-
     }
 
     fun salvaFirestore( nomeUsuario : String, pontos: String){
         var ranking = Ranking(nomeUsuario, pontos)
-        var mAuth: FirebaseAuth = FirebaseAuth.getInstance()
         val db = FirebaseFirestore.getInstance()
-        db.collection("ranking")
-            .add(ranking)
+        db.collection("ranking").add(ranking)
     }
 }

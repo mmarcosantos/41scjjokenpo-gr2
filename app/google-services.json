@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "422540740658",
-    "project_id": "jokenpo41scj",
-    "storage_bucket": "jokenpo41scj.appspot.com"
+    "project_number": "xxx",
+    "project_id": "xxx",
+    "storage_bucket": "xxxxxx"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:422540740658:android:4182686815f2347180d42b",
+        "mobilesdk_app_id": "xxxxxx",
         "android_client_info": {
-          "package_name": "br.com.marco.jokenpo"
+          "package_name": "br.com.fiap.mobile.app_android_jokenpo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "422540740658-a23o7v8hl0dqsm00vb6n40463uckgtai.apps.googleusercontent.com",
+          "client_id": "xxxxxx",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyANhSRBxvHPNaSR3HHYQYv9xU5HTwHNtTs"
+          "current_key": "xxxxxx"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "422540740658-a23o7v8hl0dqsm00vb6n40463uckgtai.apps.googleusercontent.com",
+              "client_id": "xxxxxx",
               "client_type": 3
             }
           ]
